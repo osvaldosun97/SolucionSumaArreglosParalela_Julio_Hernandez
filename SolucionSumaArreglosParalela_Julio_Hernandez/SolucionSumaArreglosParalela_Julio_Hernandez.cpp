@@ -36,7 +36,7 @@ int main()
 		c[i] = a[i] + b[i];
 
 
-	if (N < 1000)
+	if (N <= 1000)
 	{
 		std::cout << "Imprimiendo los primeros " << mostrar << "valores del arreglo a: " << std::endl;
 		imprimeArreglo(a);
